@@ -1,0 +1,645 @@
+{
+	"title":"第4回新上丘祭",
+	"operations":[
+		{		
+			"opNum":"1001F",	
+			"courseNum":"01",	
+			"type":"各停",	
+			"direction":"下り",	
+			"destination":"上成井",	
+			"crew":"",	
+			"timetable":[	
+				{"time":[20, 52, 0], "status":"台車セ発→"},
+				{"time":[21, 0, 0], "status":"上丘台発→"},
+				{"time":[21, 2, 0], "status":"中央発→"},
+				{"time":[21, 4, 0], "status":"上丘山発→"},
+				{"time":[21, 6, 0], "status":"新成発→"},
+				{"time":[21, 8, 0], "status":"岩原発→"},
+				{"time":[21, 10, 0], "status":"新町発→"},
+				{"time":[21, 12, 0], "status":"品原発→"},
+				{"time":[21, 14, 0], "status":"上成井着"}
+		]},		
+		{		
+	"opNum":"1202F",	
+	"courseNum":"01",	
+	"type":"各停",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 17, 0], "status":"上成井発→"},
+		{"time":[21, 20, 0], "status":"品原発→"},
+		{"time":[21, 22, 0], "status":"新町発→"},
+		{"time":[21, 24, 0], "status":"岩原発→"},
+		{"time":[21, 26, 0], "status":"新成発→"},
+		{"time":[21, 28, 0], "status":"上丘山発→"},
+		{"time":[21, 30, 0], "status":"中央発→"},
+		{"time":[21, 32, 0], "status":"上丘台発→"},
+		{"time":[21, 35, 0], "status":"東上丘発→"},
+		{"time":[21, 38, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1042F",	
+	"courseNum":"01",	
+	"type":"快速急行",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 41, 0], "status":"岩山口発→"},
+		{"time":[21, 45, 0], "status":"上丘台発→"},
+		{"time":[21, 47, 0], "status":"中央発→"},
+		{"time":[21, 50, 0], "status":"岩原発→"},
+		{"time":[21, 54, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1204F",	
+	"courseNum":"01",	
+	"type":"各停",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 3, 0], "status":"上成井発→"},
+		{"time":[22, 6, 0], "status":"品原発→"},
+		{"time":[22, 8, 0], "status":"新町発→"},
+		{"time":[22, 10, 0], "status":"岩原発→"},
+		{"time":[22, 14, 0], "status":"新成発→"},
+		{"time":[22, 16, 0], "status":"上丘山発→"},
+		{"time":[22, 18, 0], "status":"中央発→"},
+		{"time":[22, 20, 0], "status":"上丘台発→"},
+		{"time":[22, 23, 0], "status":"東上丘発→"},
+		{"time":[22, 26, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1043F",	
+	"courseNum":"01",	
+	"type":"快速急行",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 30, 0], "status":"岩山口発→"},
+		{"time":[22, 34, 0], "status":"上丘台発→"},
+		{"time":[22, 36, 0], "status":"中央発→"},
+		{"time":[22, 39, 0], "status":"岩原発→"},
+		{"time":[22, 42, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1224F",	
+	"courseNum":"01",	
+	"type":"準急",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 45, 0], "status":"上成井発→"},
+		{"time":[22, 49, 0], "status":"岩原発→"},
+		{"time":[22, 51, 0], "status":"新成発→"},
+		{"time":[22, 53, 0], "status":"中央発→"},
+		{"time":[23, 0, 0], "status":"上丘台発→"},
+		{"time":[23, 3, 0], "status":"東上丘発→"},
+		{"time":[23, 7, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1006F",	
+	"courseNum":"01",	
+	"type":"各停",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 11, 0], "status":"岩山口発→"},
+		{"time":[23, 14, 0], "status":"東上丘発→"},
+		{"time":[23, 17, 0], "status":"上丘台発→"},
+		{"time":[23, 19, 0], "status":"中央発→"},
+		{"time":[23, 21, 0], "status":"上丘山発→"},
+		{"time":[23, 23, 0], "status":"新成発→"},
+		{"time":[23, 25, 0], "status":"岩原発→"},
+		{"time":[23, 27, 0], "status":"新町発→"},
+		{"time":[23, 29, 0], "status":"品原発→"},
+		{"time":[23, 31, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1200F",	
+	"courseNum":"01",	
+	"type":"快速急行",	
+	"direction":"上り",	
+	"destination":"上丘台",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 35, 0], "status":"上成井発→"},
+		{"time":[23, 39, 0], "status":"岩原発→"},
+		{"time":[23, 42, 0], "status":"中央発→"},
+		{"time":[23, 44, 0], "status":"上丘台入庫開始"}
+]},		{		
+	"opNum":"1201F",	
+	"courseNum":"02",	
+	"type":"各停",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[
+		{"time":[21, 0, 0], "status":"上丘台発→"},
+		{"time":[21, 3, 0], "status":"東上丘発→"},
+		{"time":[21, 6, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1002F",	
+	"courseNum":"02",	
+	"type":"各停",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 10, 0], "status":"岩山口発→"},
+		{"time":[21, 13, 0], "status":"東上丘発→"},
+		{"time":[21, 16, 0], "status":"上丘台発→"},
+		{"time":[21, 18, 0], "status":"中央発→"},
+		{"time":[21, 20, 0], "status":"上丘山発→"},
+		{"time":[21, 24, 0], "status":"新成発→"},
+		{"time":[21, 26, 0], "status":"岩原発→"},
+		{"time":[21, 28, 0], "status":"新町発→"},
+		{"time":[21, 30, 0], "status":"品原発→"},
+		{"time":[21, 32, 0], "status":"上成井着"}
+]},		
+{		
+	"opNum":"1203F",	
+	"courseNum":"02",	
+	"type":"各停",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 35, 0], "status":"上成井発→"},
+		{"time":[21, 38, 0], "status":"品原発→"},
+		{"time":[21, 40, 0], "status":"新町発→"},
+		{"time":[21, 42, 0], "status":"岩原発→"},
+		{"time":[21, 44, 0], "status":"新成発→"},
+		{"time":[21, 46, 0], "status":"上丘山発→"},
+		{"time":[21, 48, 0], "status":"中央発→"},
+		{"time":[21, 50, 0], "status":"上丘台発→"},
+		{"time":[21, 53, 0], "status":"東上丘発→"},
+		{"time":[22, 0, 0], "status":"岩山口入替開始"}
+]},		
+{		
+	"opNum":"1004F",	
+	"courseNum":"02",	
+	"type":"各停",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 3, 0], "status":"岩山口発→"},
+		{"time":[22, 6, 0], "status":"東上丘発→"},
+		{"time":[22, 9, 0], "status":"上丘台発→"},
+		{"time":[22, 11, 0], "status":"中央発→"},
+		{"time":[22, 13, 0], "status":"上丘山発→"},
+		{"time":[22, 15, 0], "status":"新成発→"},
+		{"time":[22, 17, 0], "status":"岩原発→"},
+		{"time":[22, 19, 0], "status":"新町発→"},
+		{"time":[22, 21, 0], "status":"品原発→"},
+		{"time":[22, 23, 0], "status":"上成井着"}
+]},		
+{		
+	"opNum":"1242F",	
+	"courseNum":"02",	
+	"type":"快速急行",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 26, 0], "status":"上成井発→"},
+		{"time":[22, 30, 0], "status":"岩原発→"},
+		{"time":[22, 33, 0], "status":"中央発→"},
+		{"time":[22, 35, 0], "status":"上丘台発→"},
+		{"time":[22, 39, 0], "status":"岩山口入替開始"}
+]},		
+{		
+	"opNum":"1023F",	
+	"courseNum":"02",	
+	"type":"準急",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 43, 0], "status":"岩山口発→"},
+		{"time":[22, 46, 0], "status":"東上丘発→"},
+		{"time":[22, 49, 0], "status":"上丘台発→"},
+		{"time":[22, 51, 0], "status":"中央発→"},
+		{"time":[22, 53, 0], "status":"新成発→"},
+		{"time":[23, 1, 0], "status":"岩原発→"},
+		{"time":[23, 3, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1206F",	
+	"courseNum":"02",	
+	"type":"各停",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 5, 0], "status":"上成井発→"},
+		{"time":[23, 8, 0], "status":"品原発→"},
+		{"time":[23, 10, 0], "status":"新町発→"},
+		{"time":[23, 12, 0], "status":"岩原発→"},
+		{"time":[23, 14, 0], "status":"新成発→"},
+		{"time":[23, 16, 0], "status":"上丘山発→"},
+		{"time":[23, 18, 0], "status":"中央発→"},
+		{"time":[23, 20, 0], "status":"上丘台発→"},
+		{"time":[23, 23, 0], "status":"東上丘発→"},
+		{"time":[23, 26, 0], "status":"岩山口入替開始"}
+]},		
+{		
+	"opNum":"1007F",	
+	"courseNum":"02",	
+	"type":"各停",	
+	"direction":"下り",	
+	"destination":"中央",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 29, 0], "status":"岩山口発→"},
+		{"time":[23, 32, 0], "status":"東上丘発→"},
+		{"time":[23, 35, 0], "status":"上丘台発→"},
+		{"time":[23, 36, 0], "status":"中央着快急に変更"}
+]},		{		
+	"opNum":"1246F",	
+	"courseNum":"02",	
+	"type":"快速急行",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 37, 0], "status":"中央発→"},
+		{"time":[23, 40, 0], "status":"岩原発→"},
+		{"time":[23, 43, 0], "status":"上成井着"}
+]},	{		
+	"opNum":"1200F",	
+	"courseNum":"02",	
+	"type":"各停",	
+	"direction":"上り",	
+	"destination":"上丘台",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 45, 0], "status":"上成井発→"},
+		{"time":[23, 48, 0], "status":"品原発→"},
+		{"time":[23, 50, 0], "status":"新町発→"},
+		{"time":[23, 52, 0], "status":"岩原発→"},
+		{"time":[23, 54, 0], "status":"新成発→"},
+		{"time":[23, 56, 0], "status":"上丘山発→"},
+		{"time":[23, 58, 0], "status":"中央発→"},
+		{"time":[0, 0, 0], "status":"上丘台入庫開始"}
+]},		{		
+	"opNum":"1221F",	
+	"courseNum":"03",	
+	"type":"準急",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 10, 0], "status":"岩原発→"},
+		{"time":[21, 12, 0], "status":"新成発→"},
+		{"time":[21, 14, 0], "status":"中央発→"},
+		{"time":[21, 16, 0], "status":"上丘台発→"},
+		{"time":[21, 19, 0], "status":"東上丘発→"},
+		{"time":[21, 22, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1021F",	
+	"courseNum":"03",	
+	"type":"準急",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 27, 0], "status":"岩山口発→"},
+		{"time":[21, 30, 0], "status":"東上丘発→"},
+		{"time":[21, 33, 0], "status":"上丘台発→"},
+		{"time":[21, 35, 0], "status":"中央発→"},
+		{"time":[21, 37, 0], "status":"新成発→"},
+		{"time":[21, 39, 0], "status":"岩原発→"},
+		{"time":[21, 42, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1222F",	
+	"courseNum":"03",	
+	"type":"準急",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 45, 0], "status":"上成井発→"},
+		{"time":[21, 49, 0], "status":"岩原発→"},
+		{"time":[21, 51, 0], "status":"新成発→"},
+		{"time":[21, 53, 0], "status":"中央発→"},
+		{"time":[22, 0, 0], "status":"上丘台発→"},
+		{"time":[22, 3, 0], "status":"東上丘発→"},
+		{"time":[22, 6, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1022F",	
+	"courseNum":"03",	
+	"type":"準急",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 11, 0], "status":"岩山口発→"},
+		{"time":[22, 14, 0], "status":"東上丘発→"},
+		{"time":[22, 17, 0], "status":"上丘台発→"},
+		{"time":[22, 20, 0], "status":"中央発→"},
+		{"time":[22, 22, 0], "status":"新成発→"},
+		{"time":[22, 25, 0], "status":"岩原発→"},
+		{"time":[22, 28, 0], "status":"上成井着"}
+]},		
+{		
+	"opNum":"1205F",	
+	"courseNum":"03",	
+	"type":"各停",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 31, 0], "status":"上成井発→"},
+		{"time":[22, 34, 0], "status":"品原発→"},
+		{"time":[22, 36, 0], "status":"新町発→"},
+		{"time":[22, 38, 0], "status":"岩原発→"},
+		{"time":[22, 40, 0], "status":"新成発→"},
+		{"time":[22, 42, 0], "status":"上丘山発→"},
+		{"time":[22, 44, 0], "status":"中央発→"},
+		{"time":[22, 46, 0], "status":"上丘台発→"},
+		{"time":[22, 51, 0], "status":"東上丘発→"},
+		{"time":[23, 0, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1044F",	
+	"courseNum":"03",	
+	"type":"快速急行",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 5, 0], "status":"岩山口発→"},
+		{"time":[23, 9, 0], "status":"上丘台発→"},
+		{"time":[23, 11, 0], "status":"中央発→"},
+		{"time":[23, 14, 0], "status":"岩原発→"},
+		{"time":[23, 17, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1200F",	
+	"courseNum":"03",	
+	"type":"各停",	
+	"direction":"上り",	
+	"destination":"上丘台",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 20, 0], "status":"上成井発→"},
+		{"time":[23, 23, 0], "status":"品原発→"},
+		{"time":[23, 25, 0], "status":"新町発→"},
+		{"time":[23, 27, 0], "status":"岩原発→"},
+		{"time":[23, 29, 0], "status":"新成発→"},
+		{"time":[23, 31, 0], "status":"上丘山発→"},
+		{"time":[23, 33, 0], "status":"中央発→"},
+		{"time":[23, 35, 0], "status":"上丘台入庫開始"}
+]},		{		
+	"opNum":"1041F",	
+	"courseNum":"04",	
+	"type":"快速急行",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 6, 0], "status":"台車セ発"},
+		{"time":[21, 10, 0], "status":"上丘台発→"},
+		{"time":[21, 12, 0], "status":"中央発→"},
+		{"time":[21, 16, 0], "status":"岩原発→"},
+		{"time":[21, 19, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1241F",	
+	"courseNum":"04",	
+	"type":"快速急行",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 25, 0], "status":"上成井発→"},
+		{"time":[21, 30, 0], "status":"岩原発→"},
+		{"time":[21, 33, 0], "status":"中央発→"},
+		{"time":[21, 36, 0], "status":"上丘台発→"},
+		{"time":[21, 40, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1003F",	
+	"courseNum":"04",	
+	"type":"各停",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 43, 0], "status":"岩山口発→"},
+		{"time":[21, 46, 0], "status":"東上丘発→"},
+		{"time":[21, 49, 0], "status":"上丘台発→"},
+		{"time":[21, 51, 0], "status":"中央発→"},
+		{"time":[21, 53, 0], "status":"上丘山発→"},
+		{"time":[22, 3, 0], "status":"新成発→"},
+		{"time":[22, 5, 0], "status":"岩原発→"},
+		{"time":[22, 7, 0], "status":"新町発→"},
+		{"time":[22, 9, 0], "status":"品原発→"},
+		{"time":[22, 11, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1223F",	
+	"courseNum":"04",	
+	"type":"準急",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 14, 0], "status":"上成井発→"},
+		{"time":[22, 18, 0], "status":"岩原発→"},
+		{"time":[22, 29, 0], "status":"新成発→"},
+		{"time":[22, 22, 0], "status":"中央発→"},
+		{"time":[22, 25, 0], "status":"上丘台発→"},
+		{"time":[22, 28, 0], "status":"東上丘発→"},
+		{"time":[22, 31, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1005F",	
+	"courseNum":"04",	
+	"type":"各停",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 36, 0], "status":"岩山口発→"},
+		{"time":[22, 39, 0], "status":"東上丘発→"},
+		{"time":[22, 42, 0], "status":"上丘台発→"},
+		{"time":[22, 44, 0], "status":"中央発→"},
+		{"time":[22, 46, 0], "status":"上丘山発→"},
+		{"time":[22, 48, 0], "status":"新成発→"},
+		{"time":[22, 50, 0], "status":"岩原発→"},
+		{"time":[22, 52, 0], "status":"新町発→"},
+		{"time":[23, 0, 0], "status":"品原発→"},
+		{"time":[23, 2, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1243F",	
+	"courseNum":"04",	
+	"type":"快速急行",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 9, 0], "status":"上成井発→"},
+		{"time":[23, 13, 0], "status":"岩原発→"},
+		{"time":[23, 16, 0], "status":"中央発→"},
+		{"time":[23, 18, 0], "status":"上丘台発→"},
+		{"time":[23, 22, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1045F",	
+	"courseNum":"04",	
+	"type":"快速急行",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 25, 0], "status":"岩山口発→"},
+		{"time":[23, 29, 0], "status":"上丘台発→"},
+		{"time":[23, 31, 0], "status":"中央発→"},
+		{"time":[23, 34, 0], "status":"岩原発→"},
+		{"time":[23, 37, 0], "status":"上成井着"}
+]},		{		
+	"opNum":"1208F",	
+	"courseNum":"04",	
+	"type":"各停",	
+	"direction":"上り",	
+	"destination":"上丘台",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 40, 0], "status":"上成井発→"},
+		{"time":[23, 43, 0], "status":"品原発→"},
+		{"time":[23, 45, 0], "status":"新町発→"},
+		{"time":[23, 47, 0], "status":"岩原発→"},
+		{"time":[23, 49, 0], "status":"新成発→"},
+		{"time":[23, 51, 0], "status":"上丘山発→"},
+		{"time":[23, 53, 0], "status":"中央発→"},
+		{"time":[23, 55, 0], "status":"上丘台入庫開始"}
+]},		{		
+	"opNum":"2001F",	
+	"courseNum":"05",	
+	"type":"回送",	
+	"direction":"下り",	
+	"destination":"中央",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 15, 0], "status":"台車セ発"},
+		{"time":[21, 19, 0], "status":"上丘台発→"},
+		{"time":[21, 20, 0], "status":"中央着特急に変更"}
+]},			{		
+	"opNum":"1061F",	
+	"courseNum":"05",	
+	"type":"特 かみおか 1号",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 22, 0], "status":"中央発→"},
+		{"time":[21, 23, 0], "status":"新成通過→"},
+		{"time":[21, 28, 0], "status":"上成井入替開始"}
+]},		{		
+	"opNum":"1261F",	
+	"courseNum":"05",	
+	"type":"特 かみおか 2号",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 33, 0], "status":"上成井発→"},
+		{"time":[21, 40, 0], "status":"中央発→"},
+		{"time":[21, 45, 0], "status":"岩山口入替開始"}
+]},	{		
+	"opNum":"1062F",	
+	"courseNum":"05",	
+	"type":"特 かみおか 3号",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[21, 50, 0], "status":"岩山口発→"},
+		{"time":[22, 0, 0], "status":"中央発→"},
+		{"time":[22, 5, 0], "status":"上成井着(入替ありそう)"}
+]},		{		
+	"opNum":"1262F",	
+	"courseNum":"05",	
+	"type":"特 かみおか 4号",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 9, 0], "status":"上成井発→"},
+		{"time":[22, 15, 0], "status":"中央発→"},
+		{"time":[22, 20, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1063F",	
+	"courseNum":"05",	
+	"type":"特 かみおか 5号",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 25, 0], "status":"岩山口発→"},
+		{"time":[22, 30, 0], "status":"中央発→"},
+		{"time":[22, 35, 0], "status":"上成井着(入替ありそう)"}
+]},		{		
+	"opNum":"1263F",	
+	"courseNum":"05",	
+	"type":"特 かみおか 6号",	
+	"direction":"上り",	
+	"destination":"岩山口",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 40, 0], "status":"上成井発→"},
+		{"time":[22, 47, 0], "status":"中央発→"},
+		{"time":[22, 52, 0], "status":"岩山口入替開始"}
+]},		{		
+	"opNum":"1064F",	
+	"courseNum":"05",	
+	"type":"特 かみおか 7号",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 0, 0], "status":"岩山口発→"},
+		{"time":[23, 6, 0], "status":"中央発→"},
+		{"time":[23, 11, 0], "status":"上成井着(入替ありそう)"}
+]},	{		
+	"opNum":"1263F",	
+	"courseNum":"05",	
+	"type":"特 かみおか 8号",	
+	"direction":"上り",	
+	"destination":"中央",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 14, 0], "status":"上成井発→"},
+		{"time":[23, 19, 0], "status":"中央着回送に変更"}
+]},		
+{		
+	"opNum":"2202F",	
+	"courseNum":"05",	
+	"type":"回送",	
+	"direction":"上り",	
+	"destination":"上丘台",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[23, 20, 0], "status":"中央発→"},
+		{"time":[23, 22, 0], "status":"上丘台入庫開始"}
+]},		{		
+	"opNum":"1001F",	
+	"courseNum":"11",	
+	"type":"回送",	
+	"direction":"下り",	
+	"destination":"上成井",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 3, 0], "status":"台車セ発→"},
+		{"time":[22, 6, 0], "status":"上丘台発→"},
+		{"time":[22, 8, 0], "status":"中央発→"},
+		{"time":[22, 13, 0], "status":"岩原発→"},
+		{"time":[22, 17, 0], "status":"上成井入替開始"}
+]},		{		
+	"opNum":"1200F",	
+	"courseNum":"11",	
+	"type":"回送(甲523号)",	
+	"direction":"上り",	
+	"destination":"台車セ",	
+	"crew":"",	
+	"timetable":[	
+		{"time":[22, 22, 0], "status":"上成井発→"},
+		{"time":[22, 28, 0], "status":"中央発→"},
+		{"time":[22, 30, 0], "status":"上丘台入庫開始"}
+]}
+	]
+}

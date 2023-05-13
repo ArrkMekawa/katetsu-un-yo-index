@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+	<title>架鉄運用一覧表 | 芽河製作所</title>
+	<meta name="author" content="Arrk_YR">
+	<meta charset="UTF-8">
+	<!--description:100字程度-->
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+	<!-- クローラーの追従設定、"noindex,nofollow"で拒否 -->
+	<meta name="robots" content="noindex,nofollow">
+	<link rel="stylesheet" href="ress_min.css">
+	<link rel="stylesheet" href="style.css">
+	<meta name="format-detection" content="email=no,telephone=no,address=no">
+	<meta prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/website#" />
+	<meta property="og:url" content="" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="架鉄運用一覧表 | 芽河製作所" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="thumb.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@Arrk_YR" />
+	<meta name="twitter:title" content="架鉄運用一覧表 | 芽河製作所">
+	<meta name="twitter:image" content="large_thumb.png">
+</head>
+<body>
+	<h1 id="title">架鉄運用一覧表</h1>
+	<p style="text-align: end;font-size: 24px;" id="nowTimeDisplay">23:00:00</p>
+	<section id="selectProjects">
+		<p>架空鉄道の運用一覧を表示するよ</p>
+		<h2>プロジェクトを選択する</h2>
+		<div class="projects">
+			<!-- <span>手持ちのプロジェクトを使う:
+				<input class="upload" type="file" accept=".json"></span> -->
+				<button onclick="readFile('kamiokasai4')">上急線・第4回新上丘祭用</button>
+			</div>
+	</section>
+	<section class="tables" id="tables" style="display: none;">
+		<input class="showDataSelector" type="button" value="現在のみ表示" onclick="changeShowOption(false)" id="showPart">
+		<input class="showDataSelector" type="button" value="すべて表示" disabled onclick="changeShowOption(true)" id="showAll">
+
+		<table id="opTable" class="opTable">
+			<tr style="font-size: 18px;">
+				<th><input class="switchBtn" id="switchBtn_0" type="button" value="運用番号" onclick="changeSortPos(0)"></th>
+				<th><input class="switchBtn" type="button" value="行路番号" onclick="changeSortPos(1)" id="switchBtn_1"></th>
+				<th><input class="switchBtn" type="button" value="種別" onclick="changeSortPos(2)" id="switchBtn_2"></th>
+				<th><input class="switchBtn" type="button" value="行先" onclick="changeSortPos(3)" id="switchBtn_3"></th>
+				<th><input class="switchBtn" type="button" value="担当" onclick="changeSortPos(4)" id="switchBtn_4"></th>
+				<th><input class="switchBtn" type="button" value="現在の状態" onclick="changeSortPos(5)" id="switchBtn_5"></th>
+				<th>次の予定</th>
+				<th colspan="3"><input class="switchBtn" type="button" value="遅れ" onclick="changeSortPos(6)" id="switchBtn_6"></th>
+			</tr>
+			<tr>
+				<td>1001</td>
+				<td>01</td>
+				<td>各停</td>
+				<td>下り・上成井</td>
+				<td>かなねこ</td>
+				<td>上丘台→新上丘中央</td>
+				<td>21:05 新上丘中央発車</td>
+				<td><input class="delayBtnA" type="button" value="1分回復" disabled></td>
+				<td>0分</td>
+				<td><input class="delayBtnB" type="button" value="1分遅れ"></td>
+			</tr>
+		</table>
+
+	</section>
+	<section class="footer">
+		<hr>
+		<p>
+			2023/5/13 15:35 芽河製作所<br>
+			Ver: release - 1.0<br>
+			Arrk Twitter: <a href="https://twitter.com/Arrk_YR">@Arrk_YR</a><br>
+			--- 更新履歴 ---
+		</p>
+		<table>
+			<tr><td>release - 1.0</td><td>公開。</td></tr>
+		</table>
+	</section>
+</body>
+<script src="script.js"></script>
+</html>

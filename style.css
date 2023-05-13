@@ -1,0 +1,142 @@
+*{
+	transition: all 0.5s ease;
+}
+
+body{
+	font-family: 'M+ 1p', sans-serif;
+}
+
+.projects{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projects :is(button, input, span, a){
+	flex-grow: 1;
+	align-self: baseline;
+	position: relative;
+	/* background: #ddd; */
+	margin: 2px;
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 18px;
+}
+
+.projects :is(button, input, span, a)::before{
+	z-index: -1;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background: #dddf;
+	opacity: 1.0;
+}
+
+.projects span::before{
+	background: #ddf;
+}
+
+.projects .make::before{
+	background: #dfe;
+}
+
+.projects .upload{
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+.projects :is(button, a):hover{
+	flex-grow: 1.5;
+}
+
+.projects :is(button, a):hover::before{
+	opacity: 0.5;
+}
+
+.tables{
+	margin: 5px;
+}
+
+.showDataSelector{
+	background: #ddd;
+	color: white;
+	margin: 2px;
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 18px;
+}
+
+.showDataSelector:disabled{
+	background: #06f;
+}
+
+.opTable{
+	margin: 15px 0;
+	border-collapse: collapse;
+	width: max-content;
+}
+
+.opTable tr:nth-child(2n){
+	background: #eee;
+}
+
+.opTable :is(td, th){
+	border: solid 1px #aaa;
+	padding: 0 3px;
+	text-align: center;
+}
+
+.opTable .switchBtn{
+	background: #ddd;
+	margin: 2px;
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 18px;
+}
+
+.delayBtnA{
+	padding: 3px 10px;
+	background: #8af;
+}
+
+.delayBtnA:disabled{
+	background: #ddd;
+}
+
+.delayBtnB{
+	padding: 3px 10px;
+	background: #fa8;
+}
+
+:is(.delayBtnA, .delayBtnB):hover{
+	background: #ff8;
+}
+
+.showDataSelector:hover,
+.opTable .switchBtn:hover{
+	background: #06f;
+}
+
+.footer{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.footer table{
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.footer td{
+	border: solid 1px #aaa;
+	padding: 5px;
+	text-align: center;
+}
+
+.footer tr:nth-child(2n){
+	background: #eee;
+}
