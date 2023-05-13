@@ -10,7 +10,7 @@ let sortNumArray = [];
 
 // 現在時刻を更新する
 function updateClock() {
-	let timeOffset = -7;
+	let timeOffset = 0;
 	let now = new Date();
 	let hours = now.getHours() - timeOffset;
 	if(hours < 3) hours += 24;
@@ -71,6 +71,7 @@ function makeTableData() {
 		newOperation.crew = operation.crew;
 		newOperation.delay = 0;
 		newOperation.nowStat = '';
+		newOperation.nextStat = '';
 		newOperation.nowGoing = false;
 		newOperation.timetable = new Array();
 		for (let j = 0; j < operation.timetable.length; j++) {
@@ -97,8 +98,8 @@ function makeTableData() {
 let opTable = $('opTable');
 let prevSortSet = [0, 'z2a'];
 let sortSet = [0, 'z2a'];
-const column = ['opNum', 'courseNum', 'type', 'destination', 'crew', 'nowStat', 'delay'];
-const columnJP = ['運用番号', '行路番号', '種別', '行先', '担当', '現在の状態', '遅れ']
+const column = ['opNum', 'courseNum', 'type', 'destination', 'crew', 'nowStat', 'nextStat', 'delay'];
+const columnJP = ['運用番号', '行路番号', '種別', '行先', '担当', '現在の状態', '次の予定' , '遅れ']
 
 function refreshTable(){
 	if(!isFileLoaded) return;
@@ -139,7 +140,7 @@ function refreshTable(){
 	}
 	// console.log(sortNumArray);
 
-	console.log('現在時刻：' + nowTimeSec);
+	// console.log('現在時刻：' + nowTimeSec);
 	// これをもとに表を生成する
 	let tableData = '';
 	for(let i = 0; i < sortNumArray.length; i++){
@@ -163,6 +164,7 @@ function refreshTable(){
 					// console.log('運用開始前です');
 					nowStatus = '';
 					nextStatus = fromTimeStr + ' ' + operation.timetable[0].status;
+					innerJsonData.operations[sortNumArray[i]].nextStat = nextStatus;
 					if(timetable.time - nowTimeSec < 600){
 						// 運用開始10分前なら表示
 						innerJsonData.operations[sortNumArray[i]].nowGoing = true;
@@ -181,6 +183,7 @@ function refreshTable(){
 					nowStatus = fromTimeStr + ' ' + timetable.status;
 					nextStatus = toTimeStr + ' ' + operation.timetable[j+1].status;
 					innerJsonData.operations[sortNumArray[i]].nowStat = nowStatus;
+					innerJsonData.operations[sortNumArray[i]].nextStat = nextStatus;
 					innerJsonData.operations[sortNumArray[i]].nowGoing = true;
 					// console.log('innerJsonData:' + sortNumArray[i] + 'が更新されました' + innerJsonData.operations[sortNumArray[i]].nowStat);
 					// console.log(innerJsonData);
@@ -190,8 +193,9 @@ function refreshTable(){
 				// jが末尾
 				// console.log('現在が最後の予定です');
 				nowStatus = fromTimeStr + ' ' + timetable.status;
-				innerJsonData.operations[sortNumArray[i]].nowStat = nowStatus;
 				nextStatus = '運用終了';
+				innerJsonData.operations[sortNumArray[i]].nowStat = nowStatus;
+				innerJsonData.operations[sortNumArray[i]].nextStat = nextStatus;
 				// console.log(nowTimeSec - timetable.time);
 				if(nowTimeSec - timetable.time > 600){
 					//大幅に時間を過ぎている場合(10分)

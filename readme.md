@@ -37,6 +37,7 @@
 		\_crew
 		\_delay
 		\_nowStat(変動)
+		\_nextStat(変動)
 		\_nowGoing(変動)
 		\_timetable[]
 			\_time
